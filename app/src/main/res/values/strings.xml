@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimeToLiveRadio</string>
+    <string name="play">Play</string>
+    <string name="media_url_mp3">http://radiottl.ddns.net:8000/timeradio</string>
+</resources>
