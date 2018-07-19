@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_program"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_event_24px"
+            android:title="@string/text_program"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_order_song"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_tv_24px"
+            android:title="@string/text_order_song"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_radio"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_radio_24px"
+            android:title="@string/text_radio"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_favorite"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_query_builder_24px"
+            android:title="@string/text_favorite"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_more"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_more_horiz_24px"
+            android:title="@string/text_more"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

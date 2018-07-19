@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_more"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+         />
+
+    <TextView
+        android:id="@+id/settings_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+
+        android:text="SETTINGS"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/settings_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_text_title"
+        android:layout_centerHorizontal="true"
+        android:text="Change language"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <RadioGroup
+        android:id="@+id/rg_change_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_text">
+
+        <RadioButton
+            android:id="@+id/rb_language_ukrainian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Українська" />
+
+        <RadioButton
+            android:id="@+id/rb_language_english"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rb_language_ukrainian"
+            android:text="English" />
+
+        <RadioButton
+            android:id="@+id/rb_language_polish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rb_language_english"
+            android:text="Polska" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/app_text_title"
+        android:layout_below="@+id/rg_change_language"
+        android:text="APP"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_settings_report_a_problem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_text_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Report a problem" />
+
+
+    <RelativeLayout
+        android:layout_below="@+id/bt_settings_report_a_problem"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_instagram"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="30dp"
+            />
+
+
+        <Button
+            android:id="@+id/bt_youtube"
+            android:layout_width="36dp"
+            android:layout_height="24dp"
+            android:layout_toRightOf="@+id/bt_instagram"
+            android:layout_marginRight="30dp"
+           />
+
+
+        <Button
+            android:id="@+id/bt_facebook"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_toRightOf="@+id/bt_youtube"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

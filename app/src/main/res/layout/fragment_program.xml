@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_program"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--region Program 1-->
+
+            //Program 1
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/program1_photo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/person_photo" />
+
+                    <TextView
+                        android:id="@+id/program1_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/program1_photo"
+                        android:text="@string/program1_title_text"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/program1_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/program1_title"
+                        android:layout_toRightOf="@+id/program1_photo"
+                        android:text="@string/program1_duration" />
+
+                    <TextView
+                        android:id="@+id/program1_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="156dp"
+                        android:text="@string/program1_text" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <!--endregion-->
+
+            <!--region Program 2-->
+            //Program 2
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/program2_photo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/person_photo" />
+
+                    <TextView
+                        android:id="@+id/program2_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/program2_photo"
+                        android:text="@string/program2_title_text"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/program2_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/program2_title"
+                        android:layout_toRightOf="@+id/program2_photo"
+                        android:text="@string/program2_duration" />
+
+                    <TextView
+                        android:id="@+id/program2_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="156dp"
+                        android:text="@string/program2_text" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+            <!--region Program 3-->
+            //Program 3
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/program3_photo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/person_photo" />
+
+                    <TextView
+                        android:id="@+id/program3_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/program3_photo"
+                        android:text="@string/program3_title_text"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/program3_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/program3_title"
+                        android:layout_toRightOf="@+id/program3_photo"
+                        android:text="@string/program3_duration" />
+
+                    <TextView
+                        android:id="@+id/program3_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="156dp"
+                        android:text="@string/program3_text" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <!--endregion-->
+
+            <!--region Program 4-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program4_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program4_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program4_photo"
+            android:text="@string/program4_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program4_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program4_title"
+            android:layout_toRightOf="@+id/program4_photo"
+            android:text="@string/program4_duration" />
+
+            <TextView
+            android:id="@+id/program4_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:text="@string/program4_text" />
+
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <!--endregion-->
+
+            <!--region Program 5-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program5_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program5_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program5_photo"
+            android:text="@string/program5_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program5_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program5_title"
+            android:layout_toRightOf="@+id/program5_photo"
+            android:text="@string/program5_duration" />
+
+            <TextView
+            android:id="@+id/program5_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:text="@string/program1_text" />
+
+            </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+            <!--region Program 6 -->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program6_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program6_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program6_photo"
+            android:text="@string/program6_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program6_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program6_title"
+            android:layout_toRightOf="@+id/program6_photo"
+            android:text="@string/program6_duration" />
+
+            <TextView
+            android:id="@+id/program6_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:text="@string/program6_text" />
+
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+            <!--region Program 7-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program7_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program7_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program7_photo"
+            android:text="@string/program7_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program7_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program7_title"
+            android:layout_toRightOf="@+id/program7_photo"
+            android:text="@string/program7_duration" />
+
+            <TextView
+            android:id="@+id/program7_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:text="@string/program7_text" />
+
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+            <!--region Program 8-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program8_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program8_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program8_photo"
+            android:text="@string/program8_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program8_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program8_title"
+            android:layout_toRightOf="@+id/program8_photo"
+            android:text="@string/program1_duration" />
+
+            <TextView
+            android:id="@+id/program8_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:text="@string/program8_text" />
+
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+            <!--region Program 9-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program9_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program9_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program9_photo"
+            android:text="@string/program9_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program9_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program9_title"
+            android:layout_toRightOf="@+id/program9_photo"
+            android:text="@string/program1_duration" />
+
+            <TextView
+            android:id="@+id/program9_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:text="@string/program1_text" />
+
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+            <!--region Program 10-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program10_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program10_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program10_photo"
+            android:text="@string/program10_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program10_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program10_title"
+            android:layout_toRightOf="@+id/program10_photo"
+            android:text="@string/program10_duration" />
+
+            <TextView
+            android:id="@+id/program10_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:text="@string/program10_text" />
+
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+            <!--region Program 11-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program11_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program11_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program11_photo"
+            android:text="@string/program11_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program11_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program11_title"
+            android:layout_toRightOf="@+id/program11_photo"
+            android:text="@string/program11_duration" />
+
+            <TextView
+            android:id="@+id/program11_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:text="@string/program11_text" />
+
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+            <!--region Program 12-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+            android:id="@+id/program12_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/person_photo" />
+
+            <TextView
+            android:id="@+id/program12_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/program12_photo"
+            android:text="@string/program12_title_text"
+            android:textSize="30sp" />
+
+            <TextView
+            android:id="@+id/program12_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/program12_title"
+            android:layout_toRightOf="@+id/program12_photo"
+            android:text="@string/program12_duration" />
+
+            </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--endregion-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Program"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+</LinearLayout>

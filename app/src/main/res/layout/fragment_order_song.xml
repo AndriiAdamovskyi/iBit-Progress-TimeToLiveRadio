@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_order_song"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/order_song_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily=""
+        android:text="ORDER SONG"
+        android:layout_below="@id/main_logo"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/order_song_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/order_song_text"
+        />
+
+
+</RelativeLayout>

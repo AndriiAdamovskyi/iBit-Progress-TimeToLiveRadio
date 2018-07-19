@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_radio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily=""
+        android:text="FAVORITE"
+        android:layout_below="@id/main_logo"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/tv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_text"
+        />
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/video_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:use_controller="false"/>
+
+
+</RelativeLayout>

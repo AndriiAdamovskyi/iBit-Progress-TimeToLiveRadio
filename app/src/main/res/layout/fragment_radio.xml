@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_radio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/radio_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily=""
+        android:text="RADIO"
+        android:layout_below="@id/main_logo"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/radio_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/radio_text"
+        android:layout_above="@+id/radio_button_play_pause"
+         />
+
+    <Button
+        android:id="@+id/radio_button_play_pause"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_baseline_play_arrow_24px" />
+
+</RelativeLayout>
