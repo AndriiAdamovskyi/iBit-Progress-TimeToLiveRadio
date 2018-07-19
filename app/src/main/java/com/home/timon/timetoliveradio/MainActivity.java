@@ -66,11 +66,11 @@ public class MainActivity extends AppCompatActivity {
 
         //region Set the toolbar as ActionBar
         //Set a Toolbar to replace the ActionBar.
-//        toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-//        ActionBar actionBar = getSupportActionBar();
-//        actionBar.setDisplayHomeAsUpEnabled(true);
-//        actionBar.setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24px);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24px);
         //actionBar.hide();
         //endregion
 
@@ -256,6 +256,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle(item.getTitle());
         // Close the navigation drawer
         mDrawer.closeDrawers();
+
     }
     //endregion
 
